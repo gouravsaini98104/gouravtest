@@ -13,6 +13,8 @@ public class AuthenticateUserServiceImpl implements AuthenticateUserService {
 
 		AuthenticateSuccess authenticateSuccess = new AuthenticateSuccess();
 		authenticateSuccess.setStatus("Success");
+		
+		System.out.println("hello");
 
 		return authenticateSuccess;
 	}
